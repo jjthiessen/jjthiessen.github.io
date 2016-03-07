@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/cv/cv.xhtml.xsl" type="text/xsl" ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <head>
+    <link rel="profile" href="http://microformats.org/profile/hcalendar" />
+    <link rel="profile" href="http://microformats.org/profile/hcard" />
+  </head>
+
+  <body class="hresume">
+
+    <header>
+      <address class="vcard">
+        <span class="fn n" id="jjt">Jonathan J. Thiessen</span>
+        <span class="adr">
+            <span class="street-address">521 Hein Rd</span>
+          <span class="locality">Kelowna</span>
+          <span class="region">BC</span>
+          <span class="postal-code">V1X 4A2</span>
+          <span class="country-name">CA</span>
+        </span>
+        <a class="url" title="web" href="http://tangential.ca">http://tangential.ca</a>
+        <a class="email" title="mail" href="mailto:jt@tangential.ca">jt@tangential.ca</a>
+        <a class="tel" title="pstn" href="tel:+1.250.870.1096">+1.250.870.1096</a>
+      </address>
+    </header>
+
+    <section>
+      <h1>Education</h1>
+      <ol class="vcalendar">
+        <li class="vcard vevent education">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <a class="org url" href="http://www.uwaterloo.ca">University of Waterloo</a>
+          <span class="summary">BMath, Joint Honours <a class="url" href="https://uwaterloo.ca/math/future-undergraduates/programs/computer-science">Computer Science</a> &amp; <a class="url" href="https://uwaterloo.ca/math/future-undergraduates/programs/combinatorics-and-optimization">Combinatorics and Optimization</a></span>
+          <abbr class="dtstart" title="200609">2006.09</abbr>
+          <abbr class="dtend" title="201104">2011.04</abbr>
+          <span class="location adr">
+            <span class="locality">Waterloo</span>
+            <span class="region">ON</span>
+          </span>
+        </li>
+        <li class="vcard vevent education">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <a class="org url" href="http://cisco.netacad.net">Cisco Networking Academy</a>
+          <a class="title url" href="http://www.cisco.com/web/learning/le3/le2/le0/le9/learning_certification_type_home.html">Cisco Certified Network Associate (CCNA)</a>
+          <a class="summary url" href="http://www.ciscocertificates.com/verify.cfm">Verification Number: 381956254439JSAG</a>
+          <ol>
+            <li xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-02">
+              <abbr class="dtstart" title="20040629">2004.06.29</abbr>
+              <abbr class="dtend" title="20070629">2007.06.29</abbr>
+            </li>
+          </ol>
+          <span class="location adr">
+            <span class="locality">Kelowna</span>
+            <span class="region">BC</span>
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h1>Employment</h1>
+      <ol class="vcalendar">
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
+          <span class="title"></span>
+          <abbr class="dtstart" title="201105">2011.05</abbr>
+          <span class="location adr">
+            <span class="locality">Kelowna</span>
+            <span class="region">BC</span>
+          </span>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
+              <span class="title">Development Manager | Manager of Operational Support Systems</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="201403">2014.03</abbr>
+                </li>
+              </ol>
+              <span class="location adr">
+                <span class="locality">Kelowna</span>
+                <span class="region">BC</span>
+              </span>
+              <ul class="description">
+                <li>Oversee, plan, and actively engage in the development of several internal web applications</li>
+                <li>Maintain production servers, and internal web application deployment</li>
+                <li>Database administration</li>
+              </ul>
+            </li>
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
+              <span class="title">Developer</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="201310">2013.10</abbr>
+                  <abbr class="dtend" title="201403">2014.03</abbr>
+                </li>
+              </ol>
+              <span class="location adr">
+                <span class="locality">Kelowna</span>
+                <span class="region">BC</span>
+              </span>
+              <ul class="description">
+                <li>Develop internal web applications</li>
+                <li>Maintain production servers, and internal web application deployment</li>
+                <li>Database administration</li>
+              </ul>
+            </li>
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
+              <span class="title">NOC Supervisor</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="201301">2013.01</abbr>
+                  <abbr class="dtend" title="201310">2013.10</abbr>
+                </li>
+              </ol>
+              <span class="location adr">
+                <span class="locality">Kelowna</span>
+                <span class="region">BC</span>
+              </span>
+              <ul class="description">
+                <li>Design and maintain analytics for support metrics</li>
+                <li>Provide recommendations for NOC process improvements</li>
+                <li>Manage employee scheduling and develop alternative models for shift rotations</li>
+                <li>Respond to support requests and incidents where required</li>
+                <li>Author and perform network and systems change requests where required</li>
+              </ul>
+            </li>
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
+              <span class="title">NOC Technician</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="201105">2011.05</abbr>
+                  <abbr class="dtend" title="201301">2013.01</abbr>
+                </li>
+              </ol>
+              <span class="location adr">
+                <span class="locality">Kelowna</span>
+                <span class="region">BC</span>
+              </span>
+              <ul class="description">
+                <li>Respond to support requests and incidents</li>
+                <li>Author and perform network and systems change requests</li>
+                <li>RHEL/CentOS server administration</li>
+                <li>(Basic) Windows Server administration</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <span class="org">At Home Consulting</span>
+          <span class="title">Sole Proprietor</span>
+          <abbr class="dtstart" title="200705">2007.05</abbr>
+          <abbr class="dtend" title="200808">2008.08</abbr>
+          <span class="location adr">
+            <span class="locality">Grand Forks</span>
+            <span class="region">BC</span>
+          </span>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="http://www.shaw.ca">Shaw Communications Inc</a>
+              <span class="title">Independent IT Contractor</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="200805">2008.05</abbr>
+                  <abbr class="dtend" title="200808">2008.08</abbr>
+                </li>
+                <li>
+                  <abbr class="dtstart" title="200705">2007.05</abbr>
+                  <abbr class="dtend" title="200708">2007.08</abbr>
+                </li>
+              </ol>
+              <span class="description">Legacy Systems Maintenance, Documentation, and Migrations</span>
+              <span class="location adr">
+                <span class="locality">Grand Forks</span>
+                <span class="region">BC</span>
+              </span>
+            </li>
+          </ol>
+        </li>
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <span class="org" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-03">Sunshine Communications Ltd</span>
+          <span class="title">Internet Technician</span>
+          <ul class="description">
+            <li>Network design, maintenance, and troubleshooting</li>
+            <li>Slackware and Gentoo server administration</li>
+            <li>Windows and MacOS X client support</li>
+            <li>Customer technical support</li>
+            <li>Created report generation scripts</li>
+            <li>Co-authored customer management system</li>
+          </ul>
+          <abbr class="dtstart" title="200410">2004.10</abbr>
+          <abbr class="dtend" title="200608">2006.08</abbr>
+          <span class="location adr">
+            <span class="locality">Grand Forks</span>
+            <span class="region">BC</span>
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h1>Skills</h1>
+      <ul>
+        <li>
+          <section>
+            <h1>Languages and Frameworks</h1>
+            <ul class="skills languages">
+              <li class="skill">PHP</li>
+              <li class="skill">Shell Scripting</li>
+              <li class="skill">SQL (MySQL, PostgreSQL)</li>
+              <li class="skill">JavaScript</li>
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Misc XML Technologies (SVG, XSLT, XQuery)</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Java</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">R</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">C/C++</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Haskell</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Operating Systems</h1>
+            <ul class="skills operating-systems">
+              <li class="skill">Various Distributions of GNU/Linux</li>
+              <li class="skill">FreeBSD</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Applications</h1>
+            <ul class="skills applications">
+              <li class="skill">Apache</li>
+              <li class="skill">NGINX</li>
+              <li class="skill">MySQL</li>
+              <li class="skill">PostgreSQL</li>
+              <li class="skill">Atlassian Jira, Confluence, and Stash</li>
+              <li class="skill">Git</li>
+              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Puppet</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Networking</h1>
+            <ul class="skills networking">
+              <li class="skill">General TCP/IP networking</li>
+              <li class="skill">Ethernet cabling</li>
+              <li class="skill">Cisco switch and router experience (IOS and NX-OS)</li>
+              <li class="skill">GNU/Linux bridge and router experience</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Miscellaneous</h1>
+            <ul class="skills miscellaneous">
+              <li class="skill">Strong troubleshooting and debugging skills</li>
+              <li class="skill">GNU/Linux server administration</li>
+            </ul>
+          </section>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <ol class="footnotes">
+        <li class="footnote" id="note-02">Date of issue to date of expiry.</li>
+        <li class="footnote" id="note-03">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
+        <li class="footnote" id="note-04">Limited experience or proficiency.</li>
+      </ol>
+    </footer>
+
+  </body>
+
+</html>
