@@ -68,7 +68,7 @@
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <a class="org url" href="http://www.rackforce.com">RackForce Networks Inc</a>
           <span class="title"></span>
-          <abbr class="dtstart" title="201105">2011.05</abbr>
+          <abbr class="dtstart" title="201106">2011.06</abbr>
           <span class="location adr">
             <span class="locality">Kelowna</span>
             <span class="region">BC</span>
@@ -141,7 +141,7 @@
               <span class="title">NOC Technician</span>
               <ol>
                 <li>
-                  <abbr class="dtstart" title="201105">2011.05</abbr>
+                  <abbr class="dtstart" title="201106">2011.06</abbr>
                   <abbr class="dtend" title="201301">2013.01</abbr>
                 </li>
               </ol>
@@ -221,16 +221,17 @@
             <h1>Languages and Frameworks</h1>
             <ul class="skills languages">
               <li class="skill">PHP</li>
-              <li class="skill">Shell Scripting</li>
+              <li class="skill">Shell Scripting (POSIX, Bash)</li>
               <li class="skill">SQL (MySQL, PostgreSQL)</li>
-              <li class="skill">JavaScript</li>
+              <li class="skill">JavaScript (jQuery, D3)</li>
               <li class="skill">HTML</li>
               <li class="skill">CSS</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Misc XML Technologies (SVG, XSLT, XQuery)</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Java</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">R</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">C/C++</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Haskell</li>
+              <li class="skill">Misc XML Technologies (SVG, XSLT, XQuery)</li>
+              <li class="skill">Java</li>
+              <li class="skill">R</li>
+              <li class="skill">C/C++</li>
+              <li class="skill">Haskell</li>
+              <li class="skill">PureScript</li>
             </ul>
           </section>
         </li>
@@ -253,7 +254,7 @@
               <li class="skill">PostgreSQL</li>
               <li class="skill">Atlassian Jira, Confluence, and Stash</li>
               <li class="skill">Git</li>
-              <li class="skill" xlink:type="simple" xlink:arcrole="http://en.wikipedia.org/wiki/Footnote" xlink:href="#note-04">Puppet</li>
+              <li class="skill">Puppet</li>
             </ul>
           </section>
         </li>
@@ -268,15 +269,6 @@
             </ul>
           </section>
         </li>
-        <li>
-          <section>
-            <h1>Miscellaneous</h1>
-            <ul class="skills miscellaneous">
-              <li class="skill">Strong troubleshooting and debugging skills</li>
-              <li class="skill">GNU/Linux server administration</li>
-            </ul>
-          </section>
-        </li>
       </ul>
     </section>
 
@@ -284,7 +276,6 @@
       <ol class="footnotes">
         <li class="footnote" id="note-02">Date of issue to date of expiry.</li>
         <li class="footnote" id="note-03">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
-        <li class="footnote" id="note-04">Limited experience or proficiency.</li>
       </ol>
     </footer>
 

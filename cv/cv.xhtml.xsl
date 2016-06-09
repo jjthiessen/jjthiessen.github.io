@@ -23,6 +23,7 @@
       <head>
         <title>Curriculum Vit&aelig; | R&eacute;sum&eacute;</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" />
         <link rel="stylesheet" type="text/css" href="/css/cv.css" />
       </head>
       <body>
