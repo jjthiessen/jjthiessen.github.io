@@ -8,7 +8,7 @@
 .li-itemize{margin:1ex 0ex 1ex 2ex;padding:0ex;}
 .thefootnotes{text-align:left;margin:0ex;}
 .dt-thefootnotes{margin:0ex;float:left;clear:left;}
-.dd-thefootnotes{margin:0ex 0ex 0ex 2ex;}
+.dd-thefootnotes{margin:0ex 0ex 0ex 3ex;}
 .footnoterule{margin:1ex auto 1ex 0px;width:50%;color:#000000;}
 .center{text-align:center;margin-left:auto;margin-right:auto;}
 .flushleft{float:left;text-align:left;margin-left:0ex;margin-right:auto;}
@@ -41,3 +41,4 @@ a.c2 {font-weight: bold}
 h1.subsection{font-size: 1.125em;font-weight:bold;}
 h2.subsection{font-size: 1em;font-weight:bold;}
 html{font-family:'Source Sans Pro';}
+hr{margin: 2em 0 1em 0;}

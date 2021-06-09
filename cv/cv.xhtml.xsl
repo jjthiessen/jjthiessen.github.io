@@ -125,7 +125,7 @@
     <div class="clear"></div>
     <div>
       <div class="flushleft">
-		  <b><xsl:value-of select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' fn ')][1]" /></b><br />
+        <b><xsl:value-of select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' fn ')][1]" /></b><br />
         <xsl:apply-templates select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' adr ')][1]" />
       </div>
       <div class="flushright">
@@ -157,15 +157,19 @@
 
   <xsl:template match="node()[name()='section']">
     <xsl:variable name="depth" select="count(ancestor::node()[name()='section'])" />
+    <xsl:variable name="header" select="node()[name()='h1'][1]" />
     <div class="clear"></div>
     <section>
       <xsl:element name="h{$depth+1}">
         <xsl:attribute name="class">subsection</xsl:attribute>
-        <xsl:value-of select="node()[name()='h1'][1]" />
+        <xsl:value-of select="$header" />
+        <xsl:call-template name="footnote"><xsl:with-param name="element" select="$header" /></xsl:call-template>
       </xsl:element>
       <xsl:for-each select="node()[name()='p']">
         <p>
-          <xsl:value-of select="self::node()" />
+          <xsl:for-each select="node()">
+            <xsl:call-template name="linkify"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
+          </xsl:for-each>
           <xsl:call-template name="footnote"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
         </p>
       </xsl:for-each>
@@ -194,22 +198,22 @@
       <xsl:variable name="org" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' org ')][1]" />
       <xsl:variable name="title" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' title ')][1]" />
       <xsl:variable name="summary" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' summary ')][1]" />
-      <xsl:if test="$org">
+      <xsl:if test="string($org)">
         <b><xsl:call-template name="linkify"><xsl:with-param name="element" select="$org" /></xsl:call-template></b>
         <xsl:call-template name="footnote"><xsl:with-param name="element" select="$org" /></xsl:call-template>
         <br />
       </xsl:if>
-      <xsl:if test="$title">
+      <xsl:if test="string($title)">
         <xsl:call-template name="linkify"><xsl:with-param name="element" select="$title" /></xsl:call-template>
         <xsl:call-template name="footnote"><xsl:with-param name="element" select="$title" /></xsl:call-template>
         <br />
       </xsl:if>
-      <xsl:if test="$summary">
+      <xsl:if test="string($summary)">
         <xsl:call-template name="linkify"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
         <xsl:call-template name="footnote"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
         <br />
       </xsl:if>
-      <xsl:if test="$desc and not($desc/child::node()[text()])">
+      <xsl:if test="string($desc) and not($desc/child::node()[text()])">
         <ul class="onecollist">
           <li class="onecolitem"><xsl:apply-templates select="$desc" /></li>
         </ul>
@@ -297,7 +301,7 @@
   <xsl:template name="footnote">
     <xsl:param name="element" />
     <xsl:if test="$element/@xlink:href">
-      <sup><a id="ref-{substring($element/@xlink:href, 2)}" href="#note-{substring($element/@xlink:href, 2)}"><xsl:value-of select="count(/descendant-or-self::node()[contains(concat(' ', @class, ' '), ' footnotes ')]/child::node()[concat('#', @id)=$element/@xlink:href]/preceding-sibling::node()[name()='li']) + 1" /></a></sup>
+      <sup><a id="ref-{substring($element/@xlink:href, 2)}" href="#note-{substring($element/@xlink:href, 2)}" title="{string(//node()[concat('#', @id)=$element/@xlink:href])}"><xsl:value-of select="count(/descendant-or-self::node()[contains(concat(' ', @class, ' '), ' footnotes ')]/child::node()[concat('#', @id)=$element/@xlink:href]/preceding-sibling::node()[name()='li']) + 1" /></a></sup>
     </xsl:if>
   </xsl:template>
 
