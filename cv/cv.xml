@@ -30,11 +30,12 @@
       <p>
         I've been a human all my life.
         Sometimes I like to do computery things.
-        Please mind the footnotes.
+        <span xlink:type="simple" xlink:href="#footnotes">Please mind the footnotes.</span>
       </p>
       <p>
+        Please see your associated cover letter for more details.
         References and private personal project samples available on request.
-        Public repositories and open source contributions available though a combination of <a href="https://github.com/jjthiessen">GitHub</a> and <a href="https://gitlab.com/tangential">GitLab</a>.
+        Public repositories and open source contributions are available though a combination of <a href="https://github.com/jjthiessen">GitHub</a> and <a href="https://gitlab.com/tangential">GitLab</a>.
       </p>
     </section>
 
@@ -215,67 +216,6 @@
     </section>
 
     <section>
-      <h1>Technical Skills</h1>
-      <ul>
-        <li>
-          <section>
-            <h1>Languages and Frameworks — Intermediate</h1>
-            <ul class="skills languages">
-              <li class="skill" xlink:type="simple" xlink:href="#lang-php">PHP</li>
-              <li class="skill" xlink:type="simple" xlink:href="#lang-puppet">Puppet</li>
-              <li>Shell Scripting (POSIX, Bash)</li>
-              <li class="skill" xlink:type="simple" xlink:href="#lang-sql">SQL (MySQL, PostgreSQL)</li>
-              <li class="skill" xlink:type="simple" xlink:href="#lang-js">JavaScript (jQuery, D3.js, dc.js)</li>
-              <li>Web Markup (HTML, CSS, Bootstrap)</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1 xlink:type="simple" xlink:href="#lang">Languages and Frameworks — Novice</h1>
-            <ul class="skills languages">
-              <li class="skill" xlink:type="simple" xlink:href="#lang-hs">Haskell</li>
-              <li class="skill" xlink:type="simple" xlink:href="#lang-purs">PureScript</li>
-              <li class="skill" xlink:type="simple" xlink:href="#lang-nix">Nix</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1>Infrastructure and Applications</h1>
-            <ul class="skills applications">
-              <li class="skill" xlink:type="simple" xlink:href="#as-a-user">VMware vSphere</li>
-              <li>Apache HTTP Server</li>
-              <li>nginx</li>
-              <li>BIND</li>
-              <li>NSD</li>
-              <li>PowerDNS</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-mysql">MySQL/MariaDB/Percona</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-psql">PostgreSQL</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-atlassian">Atlassian Jira, and Confluence</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-gitlab">GitLab</li>
-              <li>git</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-puppet">Puppet</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-hashicorp">HashiCorp Vault, Nomad, Consul, and Terraform</li>
-              <li class="skill" xlink:type="simple" xlink:href="#app-docker">Docker</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1>Networking</h1>
-            <ul class="skills networking">
-              <li class="skill">General TCP/IP networking</li>
-              <li class="skill">Ethernet cabling</li>
-              <li class="skill">Cisco switch and router experience (IOS and NX-OS)</li>
-              <li class="skill">GNU/Linux bridge and router experience</li>
-            </ul>
-          </section>
-        </li>
-      </ul>
-    </section>
-
-    <section>
       <h1>Education and Certificates</h1>
       <ol class="vcalendar">
         <li class="vcard vevent education">
@@ -337,25 +277,69 @@
       </ol>
     </section>
 
+    <section>
+      <h1>Technical Skills</h1>
+      <ul>
+        <li>
+          <section>
+            <h1>Languages and Frameworks — Intermediate</h1>
+            <ul class="skills languages">
+              <li class="skill">PHP</li>
+              <li class="skill">Puppet</li>
+              <li class="skill">Shell Scripting (POSIX, Bash)</li>
+              <li class="skill">SQL (MySQL, PostgreSQL)</li>
+              <li class="skill">JavaScript (jQuery, D3.js, dc.js)</li>
+              <li class="skill">Web Markup (HTML, CSS, Bootstrap)</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Languages and Frameworks — Novice</h1>
+            <ul class="skills languages">
+              <li class="skill">Haskell</li>
+              <li class="skill">PureScript</li>
+              <li class="skill">Nix</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Infrastructure and Applications</h1>
+            <ul class="skills applications">
+              <li class="skill">Puppet</li>
+              <li class="skill">Docker</li>
+              <li class="skill">HashiCorp Vault, Nomad, Consul, and Terraform</li>
+              <li class="skill">git</li>
+              <li class="skill">Atlassian Jira, and Confluence</li>
+              <li class="skill">GitLab</li>
+              <li class="skill">MySQL/MariaDB/Percona</li>
+              <li class="skill">VMware vSphere</li>
+              <li class="skill">Apache HTTP Server</li>
+              <li class="skill">nginx</li>
+              <li class="skill">PowerDNS</li>
+              <li class="skill">BIND</li>
+              <li class="skill">NSD</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h1>Networking</h1>
+            <ul class="skills networking">
+              <li class="skill">General TCP/IP networking</li>
+              <li class="skill">Cisco switch and router experience (IOS and NX-OS)</li>
+              <li class="skill">GNU/Linux bridge and router experience</li>
+            </ul>
+          </section>
+        </li>
+      </ul>
+    </section>
+
     <footer>
       <ol class="footnotes">
+        <li class="footnote" id="footnotes">If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes.</li>
         <li class="footnote" id="sunshine">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
-        <li class="footnote" id="lang-php">PHP has been the primary language of use for in-house developed applications at all of my employers. For me, one of my more interesting PHP projects was the development of a functional library (borne from the desire to have applicative validation in PHP).</li>
-        <li class="footnote" id="lang-puppet">Our team (at TeraGo) is responsible for everything above the hypervisor as it pertains to the operation of our applications. We use Puppet extensively to manage our VMs.</li>
-        <li class="footnote" id="lang-sql">Most of my SQL experience has been with MySQL. While working as the NOC supervisor (and later developer), I devised a poor-man's analytics DB using mysql_fdw to periodically import large portions of our ticket data into PostgreSQL (where we'd have access to materialised views, analytic queries/window functions, CTEs, range types, better indexing, and a query optimiser that doesn't choke on views).</li>
-        <li class="footnote" id="lang-js">Although most of my JavaScript experience is client-side, I once wrote an API frontend/scraper and wrapper for the Mitel AMC (licensing portal) using Node.js and Express. The Mitel AMC did not have a public API, so this was necessary to enable programmatic on-demand provisioning of licenses. For client-side JS, working with D3.js to create interactive reports and visualisations has been, by far, the most interesting.</li>
-        <li class="footnote" id="lang">I've had exposure through school, work, and personal projects to several other languages; however, this is often for one-off projects or projects where I'm not the principal maintainer. Such experience includes C, C++, Java, LaTeX, Misc XML Technologies (SVG, XSLT, XQuery), PowerShell, C#, R (Shiny), Apache Spark, Clojure, Perl, Ruby, and Python.</li>
-        <li class="footnote" id="lang-hs">I've read Learn You a Haskell for Great Good, as well as a significant portion of Haskell Programming from First Principles. I've taken FP101x via edX. I've used Haskell in university for building a Bayesian classifier. I've been using XMonad since 2009. I've rebuilt my personal website using Hakyll (but then didn't publish because I never wrote any content). I'm not an absolute beginner, but I'm also not terribly skilled yet.</li>
-        <li class="footnote" id="lang-purs">I've read most of PureScript by Example. I've completed the first six cryptopals challenges using PureScript.</li>
-        <li class="footnote" id="lang-nix">I've been using NixOS as my sole desktop/workstation OS since 2019.12. I've locally written derivations for some additional versions of PHP in an attempt to determine the feasibility of basing our application images on NixOS. I've never used NixOps nor Hydra.</li>
-        <li class="footnote" id="as-a-user">Experience as an end-user/developer.</li>
-        <li class="footnote" id="app-mysql">I am responsible for the deployment and maintenance of a small cluster with single-source replication. I have never done group replication or distributed sharding.</li>
-        <li class="footnote" id="app-psql">My experience is mostly as a user. I've never configured replication or in-application backups.</li>
-        <li class="footnote" id="app-atlassian">I am responsible for the deployment and maintenance of a Jira (Server) and Confluence (Server) installation. I forked and developed/improved a basic workflow post function plugin (in Java) for Jira. I am somewhat familiar with the Jira REST API and JiraPS (PowerShell cmdlets for Jira).</li>
-        <li class="footnote" id="app-gitlab">I am co-responsible for the deployment and administration of our GitLab instance. From a user/feature perspective, we mostly make use of GitLab's repositories, MRs, pipelines, and registry.</li>
-        <li class="footnote" id="app-puppet">Another team member and I are co-responsible for our Puppet deployment (single server) and all (~60) managed VMs used by our team.</li>
-        <li class="footnote" id="app-hashicorp">We operate a couple small production and development Consul, Nomad, and Vault clusters. I have experience as an admin and user for each of them. The neatest application thus far has been our automatic internal PKI (similar to Let's Encrypt) leveraging Vault's PKI secrets engine (and certificate authentication via our Puppet CA for automatic node enrolment). We also make use of Terraform for the provisioning of VMs in vSphere and (insomuch as we can) all of our resources in AWS.</li>
-        <li class="footnote" id="app-docker">We operate a small number of independent Docker hosts (with static workloads) as well as a small number of Docker hosts whose workloads are managed via Nomad.</li>
         <li class="footnote" id="validity">Date of issue to date of expiry.</li>
       </ol>
     </footer>

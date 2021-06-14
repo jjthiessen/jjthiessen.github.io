@@ -169,6 +169,7 @@
         <p>
           <xsl:for-each select="node()">
             <xsl:call-template name="linkify"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
+            <xsl:call-template name="footnote"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
           </xsl:for-each>
           <xsl:call-template name="footnote"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
         </p>
