@@ -44,9 +44,65 @@
       <ol class="vcalendar">
         <li class="vcard vevent experience">
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <a class="org url" href="https://www.wtfast.com">AAA Internet Publishing Inc (DBA WTFast)</a>
+          <span class="title"></span>
+          <abbr class="dtstart" title="202201">2022.01</abbr>
+          <abbr class="dtend" title="202312">2023.12</abbr>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="https://www.wtfast.com">AAA Internet Publishing Inc (DBA WTFast)</a>
+              <span class="title">Senior Software Developer</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="202201">2022.01</abbr>
+                  <abbr class="dtend" title="202312">2023.12</abbr>
+                </li>
+              </ol>
+              <span class="location adr">
+                <span class="locality">Remote</span>
+              </span>
+              <ul class="description">
+                <li>Designed and authored backend APIs and data processing services (mostly in <span class="skill">Go</span>)</li>
+                <li>Deployed and operated <span class="skill">NATS</span> clusters</li>
+                <li>Wrote just enough <span class="skill">Puppet</span>, <span class="skill">Terraform</span>, and <span class="skill">Nix</span> to be self-sufficient</li>
+                <li>Fumbled through <span class="skill">GCP</span> without breaking anything</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <span class="org">Jonathan Thiessen</span>
+          <span class="title">Sole Proprietor</span>
+          <abbr class="dtstart" title="202202">2022.02</abbr>
+          <span class="location adr">
+            <span class="locality">Grand Forks</span>
+            <span class="region">BC</span>
+          </span>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
+              <span class="title">Independent IT Contractor — DevOps Consultant</span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="202202">2022.02</abbr>
+                </li>
+              </ol>
+              <span class="description">Legacy systems training, documentation, maintenance, and migrations</span>
+              <span class="location adr">
+                <span class="locality">Remote</span>
+              </span>
+            </li>
+          </ol>
+        </li>
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
           <span class="title"></span>
           <abbr class="dtstart" title="201106">2011.06</abbr>
+          <abbr class="dtend" title="202112">2021.12</abbr>
           <ol class="vcalendar description">
             <li class="vcard vevent experience">
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
@@ -55,6 +111,7 @@
               <ol>
                 <li>
                   <abbr class="dtstart" title="201701">2017.01</abbr>
+                  <abbr class="dtend" title="202112">2021.12</abbr>
                 </li>
               </ol>
               <span class="location adr">
@@ -162,7 +219,7 @@
         </li>
         <li class="vcard vevent experience">
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-          <span class="org">At Home Consulting</span>
+          <span class="org">Jonathan Thiessen (DBA At Home Consulting)</span>
           <span class="title">Sole Proprietor</span>
           <abbr class="dtstart" title="200705">2007.05</abbr>
           <abbr class="dtend" title="200808">2008.08</abbr>
@@ -199,8 +256,7 @@
           <span class="title">Internet Technician</span>
           <ul class="description">
             <li>Network design, maintenance, and troubleshooting</li>
-            <li>Slackware and Gentoo server administration</li>
-            <li>Windows and MacOS X client support</li>
+            <li>Linux server administration</li>
             <li>Customer technical support</li>
             <li>Created report generation scripts</li>
             <li>Co-authored customer management system</li>
@@ -262,7 +318,6 @@
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <a class="org url" href="https://www.netacad.com">Cisco Networking Academy</a>
           <a class="title url" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html">Cisco Certified Network Associate (CCNA)</a>
-          <a class="summary url" href="https://www.certmetrics.com/cisco/public/verification.aspx">Verification Number: 381956254439JSAG</a>
           <ol>
             <li xlink:type="simple" xlink:href="#validity">
               <abbr class="dtstart" title="20040629">2004.06.29</abbr>
@@ -277,68 +332,9 @@
       </ol>
     </section>
 
-    <section>
-      <h1>Technical Skills</h1>
-      <ul>
-        <li>
-          <section>
-            <h1>Languages and Frameworks — Intermediate</h1>
-            <ul class="skills languages">
-              <li class="skill">PHP</li>
-              <li class="skill">Puppet</li>
-              <li class="skill">Shell Scripting (POSIX, Bash)</li>
-              <li class="skill">SQL (MySQL, PostgreSQL)</li>
-              <li class="skill">JavaScript (jQuery, D3.js, dc.js)</li>
-              <li class="skill">Web Markup (HTML, CSS, Bootstrap)</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1>Languages and Frameworks — Novice</h1>
-            <ul class="skills languages">
-              <li class="skill">Haskell</li>
-              <li class="skill">PureScript</li>
-              <li class="skill">Nix</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1>Infrastructure and Applications</h1>
-            <ul class="skills applications">
-              <li class="skill">Puppet</li>
-              <li class="skill">Docker</li>
-              <li class="skill">HashiCorp Vault, Nomad, Consul, and Terraform</li>
-              <li class="skill">git</li>
-              <li class="skill">Atlassian Jira, and Confluence</li>
-              <li class="skill">GitLab</li>
-              <li class="skill">MySQL/MariaDB/Percona</li>
-              <li class="skill">VMware vSphere</li>
-              <li class="skill">Apache HTTP Server</li>
-              <li class="skill">nginx</li>
-              <li class="skill">PowerDNS</li>
-              <li class="skill">BIND</li>
-              <li class="skill">NSD</li>
-            </ul>
-          </section>
-        </li>
-        <li>
-          <section>
-            <h1>Networking</h1>
-            <ul class="skills networking">
-              <li class="skill">General TCP/IP networking</li>
-              <li class="skill">Cisco switch and router experience (IOS and NX-OS)</li>
-              <li class="skill">GNU/Linux bridge and router experience</li>
-            </ul>
-          </section>
-        </li>
-      </ul>
-    </section>
-
     <footer>
       <ol class="footnotes">
-        <li class="footnote" id="footnotes">If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes.</li>
+        <li class="footnote" id="footnotes">If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes. Buzzword soup (in the form of a technical skills matrix) is also available on request.</li>
         <li class="footnote" id="sunshine">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
         <li class="footnote" id="validity">Date of issue to date of expiry.</li>
       </ol>
