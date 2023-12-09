@@ -1,0 +1,6 @@
+/scratch/
+
+.direnv/
+.vscode/
+
+!.gitignore

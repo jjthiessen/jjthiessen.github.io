@@ -1,0 +1,75 @@
+= A Cover Letter for the Consideration of {author} for the Position of {role} at {company}
+Jonathan Thiessen <cv.enquiries@alonzo.church>
+:notitle:
+:noheader:
+:nofooter:
+:github: https://github.com/jjthiessen
+:gitlab: https://gitlab.com/tangential
+:tel: +1.250.870.1096
+:web: https://tangential.ca
+:cv: {web}/cv/cv.xml
+:company: Tontine Trust
+:role: Remote Haskell Engineer
+:posting-link: https://www.works-hub.com/jobs/remote-haskeller-a7d
+
+[cols="<,>",frame=none,grid=none]
+|===
+| {docdate}
+
+Attn: Hiring Manager +
+{company} +
+
+| {author} +
+{web} +
+mailto:{email}[{email}] +
+link:tel:{tel}[{tel}] +
+|===
+
+// While a little goofy to wrap the body in a table, it's seemingly necessary to force alignment with the header block
+[cols="1a",frame=none,grid=none,options=breakable]
+|===
+
+| Salutations,
+
+I recently became aware of {posting-link}[your posting] for the position of _{role}_, and would like to express my interest in both the position and, more broadly, {company}.
+
+I find apportionment and mechanism design (whether we're talking about voting systems, cheque splitting, auctions, or others) to be fascinating subjects.
+I believe that a lot of those ideas are echoed in both tontines and (what I can gather about) your implementation choices.
+
+////
+I like that tontines encourage peace of mind{empty}footnote:[Isn't that largely the motivation behind retirement savings?]; and that payouts grow over time, matching increases in need due to inflation, without undermining the long-term viability of the plan nor increasing management complexity.
+That mortality rates increase with age naturally hedges against abnormally long life is quite elegant{empty}footnote:[There's nothing wrong with incentivising people to live longer].
+
+Where humans are involved, it's not enough to make the right thing easy — the wrong thing should also be much harder.
+While I find it a stretch to call Haskell easy, I appreciate that one's ability to reason about code/maintain invariants doesn't depend on super-human discipline and/or global understanding.
+I feel like Haskell is a good example of a system designed to, by default, protect one from oneself and the lure of short-term incentives.
+The posting also hints at blockchain — presumably for verifiable computation and/or other transparent/auditable ledgers (which, like incentive alignment, is a good way to maintain process adherence).
+////
+
+I first encountered Haskell (and functional programming, more generally) as an undergrad.
+The shift in perspective was both mind-bending and refreshing.
+I decided to learn Haskell by using it for any programming assignment that didn't mandate a particular language.
+This led to a particularly fun (and at times stressful) week of reading through http://learnyouahaskell.com[Learn You a Haskell for Great Good!] and implementing a Bayesian classifier (in perhaps not the most efficient nor idiomatic code).
+
+////
+After university, I got a job as a junior NOC technician at RackForce Networks (later acquired by https://terago.ca[TeraGo Networks]).
+I worked my way up through the NOC, then I moved laterally to the development department, and worked my way up there.
+I have (co)led several operational improvement initiatives including the proper adoption of version control, the authoring of a change management policy for development, the use of Puppet for managing all of our team's VMs, the adoption of most of the HashiCorp stack, and the use of GitLab's CI/CD pipelines.
+Two years ago, I joined WTFast where I have been working on network metrics collection and routing optimisation (largely in Go).
+////
+
+I have long wanted to apply my interests in functional programming to a greater extent through my employment.
+So far this has been limited to my own use of Nix/NixOS (at home and in the workplace) and the starting of a functional programming guild at WTFast (we're working through link:https://www.manning.com/books/elm-in-action[Elm in Action] right now).
+
+While I do have some experience in Haskell (undergrad assignments, a couple personal projects{empty}footnote:[
+  Some voting system simulations/exploration; enumerating a particular tree representation of finite Pierce series expansions (to get a feel for link:http://www.numdam.org/item/?id=JTNB_1991__3_1_43_0[Erdös, P.; Shallit, J. O.]).
+], Project Euler, Advent of Code), and I have been working through https://haskellbook.com[Haskell Programming From First Principles] (amongst others); I've never worked on a large-scale Haskell project, and I am certainly not a senior/lead Haskell developer.
+I will likely require some amount of Haskell mentorship and/or professional development time.
+
+I have worked remotely (on a semi-asynchronous basis) since 2016.
+My work has included both highly collaborative, as well as largely independent projects — I am comfortable with both.
+I am ready for a challenge, and I would like to build upon my interest and fledgling skills in Haskell on a full-time basis.
+
+Thank you for your time and consideration, +
+— {author}
+|===
