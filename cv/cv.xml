@@ -47,78 +47,39 @@
         <li class="vcard vevent experience">
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <a class="org url" href="https://www.wtfast.com">AAA Internet Publishing Inc (DBA WTFast)</a>
-          <span class="title"></span>
+          <span class="title">Senior Software Developer</span>
+          <span class="summary">
+            <span class="skill">Go</span>
+            <span class="skill">NATS</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Puppet</span>
+            <span class="skill">Docker</span>
+            <span class="skill">GCP</span>
+            <span class="skill">Nix</span>
+            <span class="skill">Terraform</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">Redis</span>
+            <span class="skill">Neo4j</span>
+            <span class="skill">Bash Scripting</span>
+            <span class="skill">IP Networking</span>
+          </span>
           <abbr class="dtstart" title="202201">2022.01</abbr>
           <abbr class="dtend" title="202312">2023.12</abbr>
-          <ol class="vcalendar description">
-            <li class="vcard vevent experience">
-              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-              <a class="org url" href="https://www.wtfast.com">AAA Internet Publishing Inc (DBA WTFast)</a>
-              <span class="title">Senior Software Developer</span>
-              <span class="summary">
-                <span class="skill">Go</span>
-                <span class="skill">NATS</span>
-                <span class="skill">Linux</span>
-                <span class="skill">Puppet</span>
-                <span class="skill">Docker</span>
-                <span class="skill">GCP</span>
-                <span class="skill">Nix</span>
-                <span class="skill">Terraform</span>
-                <span class="skill">Git</span>
-                <span class="skill">GitHub</span>
-                <span class="skill">Redis</span>
-                <span class="skill">Neo4j</span>
-                <span class="skill">Bash Scripting</span>
-                <span class="skill">IP Networking</span>
-              </span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="202201">2022.01</abbr>
-                  <abbr class="dtend" title="202312">2023.12</abbr>
-                </li>
-              </ol>
-              <span class="location adr">
-                <span class="locality">Remote</span>
-              </span>
-              <ul class="description">
-                <li>Designed and authored backend APIs and data processing services</li>
-                <li>Deployed and operated NATS clusters</li>
-                <li>Wrote just enough Puppet, Terraform, and Nix to be self-sufficient</li>
-                <li>Fumbled through GCP without breaking anything</li>
-              </ul>
-            </li>
-          </ol>
-        </li>
-        <li class="vcard vevent experience">
-          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-          <span class="org">Jonathan Thiessen</span>
-          <span class="title">Sole Proprietor</span>
-          <abbr class="dtstart" title="202202">2022.02</abbr>
           <span class="location adr">
-            <span class="locality">Grand Forks</span>
-            <span class="region">BC</span>
+            <span class="locality">Remote</span>
           </span>
-          <ol class="vcalendar description">
-            <li class="vcard vevent experience">
-              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-              <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
-              <span class="title">Independent IT Contractor — DevOps Consultant</span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="202202">2022.02</abbr>
-                </li>
-              </ol>
-              <span class="description">Legacy systems training, documentation, maintenance, and migrations</span>
-              <span class="location adr">
-                <span class="locality">Remote</span>
-              </span>
-            </li>
-          </ol>
+          <ul class="description">
+            <li>Designed and authored backend APIs and data processing services</li>
+            <li>Deployed and operated NATS clusters</li>
+            <li>Wrote just enough Puppet, Terraform, and Nix to be self-sufficient</li>
+            <li>Fumbled through GCP without breaking anything</li>
+          </ul>
         </li>
         <li class="vcard vevent experience">
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
-          <span class="title"></span>
+          <span class="title">Various Roles</span>
           <abbr class="dtstart" title="201106">2011.06</abbr>
           <abbr class="dtend" title="202112">2021.12</abbr>
           <ol class="vcalendar description">
@@ -126,12 +87,8 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
               <span class="title">Manager, Operational Support Systems</span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201701">2017.01</abbr>
-                  <abbr class="dtend" title="202112">2021.12</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201701">2017.01</abbr>
+              <abbr class="dtend" title="202112">2021.12</abbr>
               <span class="location adr">
                 <span class="locality">Remote</span>
               </span>
@@ -140,12 +97,8 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://rackforce.com">RackForce Networks Inc</a>
               <span class="title">Manager, Operational Support Systems</span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201610">2016.10</abbr>
-                  <abbr class="dtend" title="2017.01">2017.01</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201610">2016.10</abbr>
+              <abbr class="dtend" title="2017.01">2017.01</abbr>
               <span class="location adr">
                 <span class="locality">Remote</span>
               </span>
@@ -179,19 +132,15 @@
                 <span class="skill">VMWare VCD</span>
                 <span class="skill">IP Networking</span>
               </span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201403">2014.03</abbr>
-                  <abbr class="dtend" title="2016.10">2016.10</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201403">2014.03</abbr>
+              <abbr class="dtend" title="2016.10">2016.10</abbr>
               <span class="location adr">
                 <span class="locality">Kelowna</span>
                 <span class="region">BC</span>
               </span>
               <ul class="description">
                 <li>Plan, oversee, and actively engage in the development of our applications and associated integrations</li>
-                <li>Maintain operational, configuration, and other procedures (e.g., disaster recovery)</li>
+                <li>Maintain operational, configuration, and other procedures (<i>e.g.,</i> disaster recovery)</li>
                 <li>Research and evaluate technologies and techniques</li>
                 <li>Provision and maintain production servers</li>
               </ul>
@@ -220,12 +169,8 @@
                 <span class="skill">VMWare vSphere</span>
                 <span class="skill">IP Networking</span>
               </span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201310">2013.10</abbr>
-                  <abbr class="dtend" title="201403">2014.03</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201310">2013.10</abbr>
+              <abbr class="dtend" title="201403">2014.03</abbr>
               <span class="location adr">
                 <span class="locality">Kelowna</span>
                 <span class="region">BC</span>
@@ -251,12 +196,8 @@
                 <span class="skill">Cisco NX-OS</span>
                 <span class="skill">IP Networking</span>
               </span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201301">2013.01</abbr>
-                  <abbr class="dtend" title="201310">2013.10</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201301">2013.01</abbr>
+              <abbr class="dtend" title="201310">2013.10</abbr>
               <span class="location adr">
                 <span class="locality">Kelowna</span>
                 <span class="region">BC</span>
@@ -291,12 +232,8 @@
                 <span class="skill">Cisco NX-OS</span>
                 <span class="skill">IP Networking</span>
               </span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="201106">2011.06</abbr>
-                  <abbr class="dtend" title="201301">2013.01</abbr>
-                </li>
-              </ol>
+              <abbr class="dtstart" title="201106">2011.06</abbr>
+              <abbr class="dtend" title="201301">2013.01</abbr>
               <span class="location adr">
                 <span class="locality">Kelowna</span>
                 <span class="region">BC</span>
@@ -307,39 +244,6 @@
                 <li>RHEL/CentOS server administration</li>
                 <li>(Basic) Windows Server administration</li>
               </ul>
-            </li>
-          </ol>
-        </li>
-        <li class="vcard vevent experience">
-          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-          <span class="org">Jonathan Thiessen (DBA At Home Consulting)</span>
-          <span class="title">Sole Proprietor</span>
-          <abbr class="dtstart" title="200705">2007.05</abbr>
-          <abbr class="dtend" title="200808">2008.08</abbr>
-          <span class="location adr">
-            <span class="locality">Grand Forks</span>
-            <span class="region">BC</span>
-          </span>
-          <ol class="vcalendar description">
-            <li class="vcard vevent experience">
-              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
-              <a class="org url" href="https://www.shaw.ca">Shaw Communications Inc</a>
-              <span class="title">Independent IT Contractor</span>
-              <ol>
-                <li>
-                  <abbr class="dtstart" title="200805">2008.05</abbr>
-                  <abbr class="dtend" title="200808">2008.08</abbr>
-                </li>
-                <li>
-                  <abbr class="dtstart" title="200705">2007.05</abbr>
-                  <abbr class="dtend" title="200708">2007.08</abbr>
-                </li>
-              </ol>
-              <span class="description">Legacy systems maintenance, documentation, and migrations</span>
-              <span class="location adr">
-                <span class="locality">Grand Forks</span>
-                <span class="region">BC</span>
-              </span>
             </li>
           </ol>
         </li>
@@ -376,6 +280,67 @@
             <span class="locality">Grand Forks</span>
             <span class="region">BC</span>
           </span>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h1>Independent Contracting</h1>
+      <ol class="vcalendar">
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <span class="org">Jonathan Thiessen</span>
+          <span class="title">Sole Proprietor</span>
+          <abbr class="dtstart" title="202202">2022.02</abbr>
+          <span class="location adr">
+            <span class="locality">Grand Forks</span>
+            <span class="region">BC</span>
+          </span>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
+              <span class="title">Independent IT Contractor — DevOps Consultant</span>
+              <abbr class="dtstart" title="202202">2022.02</abbr>
+              <span class="description">Legacy systems training, documentation, maintenance, and migrations</span>
+              <span class="location adr">
+                <span class="locality">Remote</span>
+              </span>
+            </li>
+          </ol>
+        </li>
+        <li class="vcard vevent experience">
+          <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+          <span class="org">Jonathan Thiessen (DBA At Home Consulting)</span>
+          <span class="title">Sole Proprietor</span>
+          <abbr class="dtstart" title="200705">2007.05</abbr>
+          <abbr class="dtend" title="200808">2008.08</abbr>
+          <span class="location adr">
+            <span class="locality">Grand Forks</span>
+            <span class="region">BC</span>
+          </span>
+          <ol class="vcalendar description">
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="https://www.shaw.ca">Shaw Communications Inc</a>
+              <span class="title">Independent IT Contractor</span>
+              <span class="description">Legacy systems documentation, maintenance, and migrations</span>
+              <span class="location adr">
+                <span class="locality">Grand Forks</span>
+                <span class="region">BC</span>
+              </span>
+              <ol>
+                <li>
+                  <abbr class="dtstart" title="200805">2008.05</abbr>
+                  <abbr class="dtend" title="200808">2008.08</abbr>
+                </li>
+                <li>
+                  <abbr class="dtstart" title="200705">2007.05</abbr>
+                  <abbr class="dtend" title="200708">2007.08</abbr>
+                </li>
+              </ol>
+            </li>
+          </ol>
         </li>
       </ol>
     </section>
@@ -457,13 +422,8 @@
 
     <footer>
       <ol class="footnotes">
-        <li class="footnote" id="footnotes">
-          If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes.
-          Buzzword soup (in the form of a technical skills matrix) is also available on request.
-        </li>
-        <li class="footnote" id="functional">
-          While I am neither a PL researcher, nor a type theory savant; I am particularly keen on securing employment involving functional programming.
-        </li>
+        <li class="footnote" id="footnotes">If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes. Buzzword soup (in the form of a technical skills matrix) is also available on request.</li>
+        <li class="footnote" id="functional">While I am neither a PL researcher, nor a type theory savant, I am particularly keen on securing employment involving functional programming.</li>
         <li class="footnote" id="sunshine">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
         <li class="footnote" id="validity">Date of issue to date of expiry.</li>
       </ol>

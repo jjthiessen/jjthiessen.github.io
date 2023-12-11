@@ -216,7 +216,7 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:for-each>
-        <xsl:for-each select="(self::node() | node()/node())[node()[contains(concat(' ', @class, ' '), ' dtstart ')]]">
+        <xsl:for-each select="(self::node() | node()[name()='ol' and not(contains(concat(' ', @class, ' '), ' vcalendar '))]/node()[name()='li' and not(contains(concat(' ', @class, ' '), ' vevent '))])[node()[contains(concat(' ', @class, ' '), ' dtstart ')]]">
           <xsl:variable name="dtstart" select="node()[contains(concat(' ', @class, ' '), ' dtstart ')]" />
           <xsl:variable name="dtend" select="node()[contains(concat(' ', @class, ' '), ' dtend ')]" />
           <xsl:value-of select="$dtstart" />
@@ -239,7 +239,7 @@
         <ul class="onecollist">
           <xsl:for-each select="$desc/child::node()[name()='li']">
             <li class="onecolitem">
-              <xsl:value-of select="self::node()" />
+              <xsl:copy-of select="self::node()" />
             </li>
           </xsl:for-each>
         </ul>
