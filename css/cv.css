@@ -10,7 +10,7 @@
 .row{display:flex;}
 .flushleft{flex:auto;}
 .flushright{flex:initial;text-align:right;width:fit-content;white-space:nowrap;}
-.skill{background-color:hsl(252, 50%, 90%);border-radius:1ex;padding-inline:0.8ex;margin:0.1ex 0.2ex;display:inline-flex;}
+.skill{background-color:hsl(252, 50%, 90%);border-radius:1ex;padding-inline:0.8ex;margin:0.1ex 0.2ex;display:inline-flex;font-size:small;}
 DIV TABLE{margin-left:inherit;margin-right:inherit;}
 PRE{text-align:left;margin-left:0ex;margin-right:auto;}
 BLOCKQUOTE{margin-left:2ex;margin-right:2ex;text-align:left;}
