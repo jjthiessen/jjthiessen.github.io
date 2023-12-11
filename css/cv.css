@@ -1,9 +1,5 @@
 .onecollist{list-style-position:outside;margin:0ex;padding:0ex;}
 .onecolitem{margin:1ex 0ex 1ex 4ex;padding:0ex;}
-.twocollist{list-style-position:outside;margin:0ex;padding:0ex;}
-.twocolitem{float:left;width:45%;margin:1ex 0ex 1ex 4ex;padding:0ex;}
-.threecollist{list-style-position:outside;margin:0ex;padding:0ex;}
-.threecolitem{float:left;width:25%;margin:1ex 0ex 1ex 4ex;padding:0ex;}
 .itemize{list-style-type:none;margin:0ex;padding:0ex;}
 .li-itemize{margin:1ex 0ex 1ex 2ex;padding:0ex;}
 .thefootnotes{text-align:left;margin:0ex;}
@@ -11,9 +7,10 @@
 .dd-thefootnotes{margin:0ex 0ex 0ex 3ex;}
 .footnoterule{margin:1ex auto 1ex 0px;width:50%;color:#000000;}
 .center{text-align:center;margin-left:auto;margin-right:auto;}
-.flushleft{float:left;text-align:left;margin-left:0ex;margin-right:auto;}
-.flushright{float:right;text-align:right;margin-left:auto;margin-right:0ex;}
-.clear{clear:both;}
+.row{display:flex;}
+.flushleft{flex:auto;}
+.flushright{flex:initial;text-align:right;width:fit-content;white-space:nowrap;}
+.skill{background-color:hsl(252, 60%, 80%);border-radius:1ex;padding-inline:0.8ex;margin:0.1ex 0.2ex;display:inline-flex;}
 DIV TABLE{margin-left:inherit;margin-right:inherit;}
 PRE{text-align:left;margin-left:0ex;margin-right:auto;}
 BLOCKQUOTE{margin-left:2ex;margin-right:2ex;text-align:left;}

@@ -53,6 +53,18 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://www.wtfast.com">AAA Internet Publishing Inc (DBA WTFast)</a>
               <span class="title">Senior Software Developer</span>
+              <span class="summary">
+                <span class="skill">Go</span>
+                <span class="skill">NATS</span>
+                <span class="skill">Linux</span>
+                <span class="skill">Puppet</span>
+                <span class="skill">GCP</span>
+                <span class="skill">Nix</span>
+                <span class="skill">Terraform</span>
+                <span class="skill">Redis</span>
+                <span class="skill">Neo4j</span>
+                <span class="skill">Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="202201">2022.01</abbr>
@@ -63,10 +75,10 @@
                 <span class="locality">Remote</span>
               </span>
               <ul class="description">
-                <li>Designed and authored backend APIs and data processing services (mostly in <span class="skill">Go</span>)</li>
-                <li>Deployed and operated <span class="skill">NATS</span> clusters</li>
-                <li>Wrote just enough <span class="skill">Puppet</span>, <span class="skill">Terraform</span>, and <span class="skill">Nix</span> to be self-sufficient</li>
-                <li>Fumbled through <span class="skill">GCP</span> without breaking anything</li>
+                <li>Designed and authored backend APIs and data processing services</li>
+                <li>Deployed and operated NATS clusters</li>
+                <li>Wrote just enough Puppet, Terraform, and Nix to be self-sufficient</li>
+                <li>Fumbled through GCP without breaking anything</li>
               </ul>
             </li>
           </ol>
@@ -85,6 +97,23 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
               <span class="title">Independent IT Contractor — DevOps Consultant</span>
+              <span class="summary">
+                <span class="skill">Puppet</span>
+                <span class="skill">Linux</span>
+                <span class="skill">GitLab</span>
+                <span class="skill">Consul</span>
+                <span class="skill">Vault</span>
+                <span class="skill">Nomad</span>
+                <span class="skill">Terraform</span>
+                <span class="skill">BIND</span>
+                <span class="skill">PowerDNS</span>
+                <span class="skill">nsd</span>
+                <span class="skill">unbound</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">PHP</span>
+                <span class="skill">Cisco ASA</span>
+                <span class="skill">Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="202202">2022.02</abbr>
@@ -254,6 +283,21 @@
           <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
           <span class="org" xlink:type="simple" xlink:href="#sunshine">Sunshine Communications Ltd</span>
           <span class="title">Internet Technician</span>
+          <span class="summary">
+            <span class="skill">Linux</span>
+            <span class="skill">PHP</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Perl</span>
+            <span class="skill">Bash Scripting</span>
+            <span class="skill">Apache HTTPD</span>
+            <span class="skill">BIND</span>
+            <span class="skill">Sendmail</span>
+            <span class="skill">Radius</span>
+            <span class="skill">DOCSIS</span>
+            <span class="skill">Riverstone (RS 8000)</span>
+            <span class="skill">Cisco IOS</span>
+            <span class="skill">IP Networking</span>
+          </span>
           <ul class="description">
             <li>Network design, maintenance, and troubleshooting</li>
             <li>Linux server administration</li>

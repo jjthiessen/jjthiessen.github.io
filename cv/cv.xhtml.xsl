@@ -33,16 +33,13 @@
   </xsl:template>
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' hresume ')]">
-    <div class="clear"></div>
     <div style="width:80%;padding:10%;">
       <xsl:choose>
         <xsl:when test="descendant-or-self::node()[name()='header']">
           <xsl:apply-templates select="descendant-or-self::node()[name()='header'][1]" />
         </xsl:when>
         <xsl:otherwise>
-          <div class="clear"></div>
           <xsl:apply-templates select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' vcard ')][1]" />
-          <div class="clear"></div>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
@@ -78,24 +75,6 @@
               </xsl:for-each>
             </ol>
           </xsl:if>
-          <xsl:if test="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' skill ')]">
-            <h1 class="subsection">Skills</h1>
-            <ul class="twocollist">
-              <xsl:for-each select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' skill ')]">
-                <li>
-                  <xsl:choose>
-                    <xsl:when test="position() mod 2 = 0">
-                      <xsl:attribute name="class">twocolitem</xsl:attribute>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:attribute name="class">twocolitem clear</xsl:attribute>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                  <xsl:call-template name="linkify"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
-                </li>
-              </xsl:for-each>
-            </ul>
-          </xsl:if>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
@@ -103,27 +82,21 @@
           <xsl:apply-templates select="descendant-or-self::node()[name()='footer'][1]" />
         </xsl:when>
         <xsl:when test="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' footnotes ')]">
-          <div class="clear"></div>
           <hr />
           <dl class="thefootnotes">
             <xsl:apply-templates select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' footnotes ')]" />
           </dl>
-          <div class="clear"></div>
         </xsl:when>
       </xsl:choose>
     </div>
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template match="node()[name()='header']">
-    <div class="clear"></div>
     <xsl:apply-templates select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' vcard ')][1]" />
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' vcard ')]">
-    <div class="clear"></div>
-    <div>
+    <div class="row">
       <div class="flushleft">
         <b><xsl:value-of select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' fn ')][1]" /></b><br />
         <xsl:apply-templates select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' adr ')][1]" />
@@ -136,7 +109,6 @@
         </xsl:for-each>
       </div>
     </div>
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' adr ')]">
@@ -158,7 +130,6 @@
   <xsl:template match="node()[name()='section']">
     <xsl:variable name="depth" select="count(ancestor::node()[name()='section'])" />
     <xsl:variable name="header" select="node()[name()='h1'][1]" />
-    <div class="clear"></div>
     <section>
       <xsl:element name="h{$depth+1}">
         <xsl:attribute name="class">subsection</xsl:attribute>
@@ -180,7 +151,6 @@
         <li class="li-itemize"><xsl:apply-templates select="descendant::node()[name()='section']" /></li>
       </ul>
     </section>
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' vcalendar ')]">
@@ -195,56 +165,67 @@
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' vevent ')]">
     <xsl:variable name="desc" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' description ')][1]" />
-    <div class="flushleft">
-      <xsl:variable name="org" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' org ')][1]" />
-      <xsl:variable name="title" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' title ')][1]" />
-      <xsl:variable name="summary" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' summary ')][1]" />
-      <xsl:if test="string($org)">
-        <b><xsl:call-template name="linkify"><xsl:with-param name="element" select="$org" /></xsl:call-template></b>
-        <xsl:call-template name="footnote"><xsl:with-param name="element" select="$org" /></xsl:call-template>
-        <br />
-      </xsl:if>
-      <xsl:if test="string($title)">
-        <xsl:call-template name="linkify"><xsl:with-param name="element" select="$title" /></xsl:call-template>
-        <xsl:call-template name="footnote"><xsl:with-param name="element" select="$title" /></xsl:call-template>
-        <br />
-      </xsl:if>
-      <xsl:if test="string($summary)">
-        <xsl:call-template name="linkify"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
-        <xsl:call-template name="footnote"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
-        <br />
-      </xsl:if>
-      <xsl:if test="string($desc) and not($desc/child::node()[text()])">
-        <ul class="onecollist">
-          <li class="onecolitem"><xsl:apply-templates select="$desc" /></li>
-        </ul>
-      </xsl:if>
+    <div class="row">
+      <div class="flushleft">
+        <xsl:variable name="org" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' org ')][1]" />
+        <xsl:variable name="title" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' title ')][1]" />
+        <xsl:variable name="summary" select="child::node()[contains(concat(' ', @class, ' '), ' summary ')][1]" />
+        <xsl:if test="string($org)">
+          <b><xsl:call-template name="linkify"><xsl:with-param name="element" select="$org" /></xsl:call-template></b>
+          <xsl:call-template name="footnote"><xsl:with-param name="element" select="$org" /></xsl:call-template>
+          <br />
+        </xsl:if>
+        <xsl:if test="string($title)">
+          <xsl:call-template name="linkify"><xsl:with-param name="element" select="$title" /></xsl:call-template>
+          <xsl:call-template name="footnote"><xsl:with-param name="element" select="$title" /></xsl:call-template>
+          <br />
+        </xsl:if>
+        <xsl:if test="string($summary)">
+          <xsl:variable name="skills" select="$summary/child::node()[contains(concat(' ', @class, ' '), ' skill ')]" />
+          <xsl:choose>
+            <xsl:when test="$skills">
+              <xsl:for-each select="$skills">
+                <xsl:copy-of select="self::node()" />
+              </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:call-template name="linkify"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
+              <xsl:call-template name="footnote"><xsl:with-param name="element" select="$summary" /></xsl:call-template>
+            </xsl:otherwise>
+          </xsl:choose>
+          <br />
+        </xsl:if>
+        <xsl:if test="string($desc) and not($desc/child::node()[text()])">
+          <ul class="onecollist">
+            <li class="onecolitem"><xsl:apply-templates select="$desc" /></li>
+          </ul>
+        </xsl:if>
+      </div>
+      <div class="flushright">
+        <xsl:for-each select="node()[contains(concat(' ', @class, ' '), ' location ')]">
+          <xsl:variable name="adr" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' adr ')]" />
+          <xsl:choose>
+            <xsl:when test="$adr">
+              <xsl:apply-templates select="$adr" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="child::node()" />
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each>
+        <xsl:for-each select="(self::node() | node()/node())[node()[contains(concat(' ', @class, ' '), ' dtstart ')]]">
+          <xsl:variable name="dtstart" select="node()[contains(concat(' ', @class, ' '), ' dtstart ')]" />
+          <xsl:variable name="dtend" select="node()[contains(concat(' ', @class, ' '), ' dtend ')]" />
+          <xsl:value-of select="$dtstart" />
+          <xsl:choose>
+            <xsl:when test="$dtend">&ndash;<xsl:value-of select="$dtend" /></xsl:when>
+            <xsl:otherwise>&ndash;Present</xsl:otherwise>
+          </xsl:choose>
+          <xsl:call-template name="footnote"><xsl:with-param name="element" select="($dtstart | $dtend)[1]/parent::node()" /></xsl:call-template>
+          <br />
+        </xsl:for-each>
+      </div>
     </div>
-    <div class="flushright">
-      <xsl:for-each select="node()[contains(concat(' ', @class, ' '), ' location ')]">
-        <xsl:variable name="adr" select="descendant-or-self::node()[contains(concat(' ', @class, ' '), ' adr ')]" />
-        <xsl:choose>
-          <xsl:when test="$adr">
-            <xsl:apply-templates select="$adr" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="child::node()" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
-      <xsl:for-each select="(self::node() | node()/node())[node()[contains(concat(' ', @class, ' '), ' dtstart ')]]">
-        <xsl:variable name="dtstart" select="node()[contains(concat(' ', @class, ' '), ' dtstart ')]" />
-        <xsl:variable name="dtend" select="node()[contains(concat(' ', @class, ' '), ' dtend ')]" />
-        <xsl:value-of select="$dtstart" />
-        <xsl:choose>
-          <xsl:when test="$dtend">&ndash;<xsl:value-of select="$dtend" /></xsl:when>
-          <xsl:otherwise>&ndash;Present</xsl:otherwise>
-        </xsl:choose>
-        <xsl:call-template name="footnote"><xsl:with-param name="element" select="($dtstart | $dtend)[1]/parent::node()" /></xsl:call-template>
-        <br />
-      </xsl:for-each>
-    </div>
-    <div class="clear"></div>
     <xsl:choose>
       <xsl:when test="$desc/child::node()[text() and contains(concat(' ', @class, ' '), ' vevent ')]">
         <ul class="itemize">
@@ -254,49 +235,27 @@
       <xsl:when test="$desc/child::node()[text() and not(contains(concat(' ', @class, ' '), ' vevent '))]">
         <ul class="onecollist">
           <xsl:for-each select="$desc/child::node()[name()='li']">
-            <li class="onecolitem"><xsl:value-of select="self::node()" /></li>
+            <li class="onecolitem">
+              <xsl:value-of select="self::node()" />
+            </li>
           </xsl:for-each>
         </ul>
       </xsl:when>
     </xsl:choose>
-    <div class="clear"></div>
-  </xsl:template>
-
-  <xsl:template match="node()[(name()='ul' or name()='ol') and contains(concat(' ', @class, ' '), ' skills ')]">
-    <ul class="twocollist">
-      <xsl:for-each select="child::node()[name()='li']">
-        <li>
-          <xsl:choose>
-            <xsl:when test="position() mod 2 = 0">
-              <xsl:attribute name="class">twocolitem</xsl:attribute>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:attribute name="class">twocolitem clear</xsl:attribute>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:value-of select="self::node()" />
-          <xsl:call-template name="footnote"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
-        </li>
-      </xsl:for-each>
-    </ul>
   </xsl:template>
 
   <xsl:template match="node()[name()='footer']">
-    <div class="clear"></div>
     <hr />
     <dl class="thefootnotes">
       <xsl:apply-templates select="child::node()[contains(concat(' ', @class, ' '), ' footnotes ')]" />
     </dl>
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template match="node()[(name()='ol' or name()='ul') and contains(concat(' ', @class, ' '), ' footnotes ')]">
-    <div class="clear"></div>
     <xsl:for-each select="child::node()[name()='li']">
       <dt class="dt-thefootnotes"><a id="note-{self::node()/@id}" href="#ref-{self::node()/@id}"><xsl:number value="position()" /></a></dt>
       <dd class="dd-thefootnotes"><xsl:value-of select="self::node()" /></dd>
     </xsl:for-each>
-    <div class="clear"></div>
   </xsl:template>
 
   <xsl:template name="footnote">
