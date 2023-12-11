@@ -157,7 +157,11 @@
   </xsl:template>
 
   <xsl:template match="node()[contains(concat(' ', @class, ' '), ' vcalendar ')]">
+    <xsl:variable name="depth" select="count(ancestor::node()[contains(concat(' ', @class, ' '), ' vcalendar ')])" />
     <ol class="itemize">
+      <xsl:if test="$depth > 0">
+        <xsl:attribute name="class">itemize nested</xsl:attribute>
+      </xsl:if>
       <xsl:for-each select="node()[contains(concat(' ', @class, ' '), ' vevent ')]">
         <li class="li-itemize">
           <xsl:apply-templates select="self::node()" />
@@ -231,9 +235,7 @@
     </div>
     <xsl:choose>
       <xsl:when test="$desc/child::node()[text() and contains(concat(' ', @class, ' '), ' vevent ')]">
-        <ul class="itemize">
-          <li class="li-itemize"><xsl:apply-templates select="$desc" /></li>
-        </ul>
+        <xsl:apply-templates select="$desc" />
       </xsl:when>
       <xsl:when test="$desc/child::node()[text() and not(contains(concat(' ', @class, ' '), ' vevent '))]">
         <ul class="onecollist">
