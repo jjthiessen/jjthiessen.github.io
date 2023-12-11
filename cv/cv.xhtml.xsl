@@ -133,9 +133,12 @@
     <section>
       <xsl:element name="h{$depth+1}">
         <xsl:attribute name="class">subsection</xsl:attribute>
-        <xsl:value-of select="$header" />
+        <xsl:copy-of select="$header/node()" />
         <xsl:call-template name="footnote"><xsl:with-param name="element" select="$header" /></xsl:call-template>
       </xsl:element>
+      <xsl:for-each select="node()[name()='blockquote']">
+        <xsl:copy-of select="self::node()" />
+      </xsl:for-each>
       <xsl:for-each select="node()[name()='p']">
         <p>
           <xsl:for-each select="node()">

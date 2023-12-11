@@ -31,8 +31,10 @@
         I've been a human all my life.
         Sometimes I like to do computery things.
         <span xlink:type="simple" xlink:href="#footnotes">Please mind the footnotes.</span>
-      </p>
-      <p>
+      </p><p>
+        I have some interest in espresso, mixology, zymurgy, fountain pens, and the formal sciences.
+        I seek to apply and further develop my skills in <span xlink:type="simple" xlink:href="#functional">functional and declarative programming.</span>
+      </p><p>
         Please see your associated cover letter for more details.
         References and private personal project samples available on request.
         Public repositories and open source contributions are available though a combination of <a href="https://github.com/jjthiessen">GitHub</a> and <a href="https://gitlab.com/tangential">GitLab</a>.
@@ -58,12 +60,16 @@
                 <span class="skill">NATS</span>
                 <span class="skill">Linux</span>
                 <span class="skill">Puppet</span>
+                <span class="skill">Docker</span>
                 <span class="skill">GCP</span>
                 <span class="skill">Nix</span>
                 <span class="skill">Terraform</span>
+                <span class="skill">Git</span>
+                <span class="skill">GitHub</span>
                 <span class="skill">Redis</span>
                 <span class="skill">Neo4j</span>
-                <span class="skill">Networking</span>
+                <span class="skill">Bash Scripting</span>
+                <span class="skill">IP Networking</span>
               </span>
               <ol>
                 <li>
@@ -97,23 +103,6 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
               <span class="title">Independent IT Contractor — DevOps Consultant</span>
-              <span class="summary">
-                <span class="skill">Puppet</span>
-                <span class="skill">Linux</span>
-                <span class="skill">GitLab</span>
-                <span class="skill">Consul</span>
-                <span class="skill">Vault</span>
-                <span class="skill">Nomad</span>
-                <span class="skill">Terraform</span>
-                <span class="skill">BIND</span>
-                <span class="skill">PowerDNS</span>
-                <span class="skill">nsd</span>
-                <span class="skill">unbound</span>
-                <span class="skill">MySQL</span>
-                <span class="skill">PHP</span>
-                <span class="skill">Cisco ASA</span>
-                <span class="skill">Networking</span>
-              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="202202">2022.02</abbr>
@@ -165,6 +154,31 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://www.rackforce.com">RackForce Networks Inc</a>
               <span class="title">Manager, Operational Support Systems</span>
+              <span class="summary">
+                <span class="skill">Linux</span>
+                <span class="skill">Puppet</span>
+                <span class="skill">Docker</span>
+                <span class="skill">AWS</span>
+                <span class="skill">Consul</span>
+                <span class="skill">Vault</span>
+                <span class="skill">Nomad</span>
+                <span class="skill">Terraform</span>
+                <span class="skill">PHP</span>
+                <span class="skill">Percona</span>
+                <span class="skill">Git</span>
+                <span class="skill">GitLab</span>
+                <span class="skill">Jira</span>
+                <span class="skill">Confluence</span>
+                <span class="skill">BIND</span>
+                <span class="skill">PowerDNS</span>
+                <span class="skill">NSD</span>
+                <span class="skill">Unbound</span>
+                <span class="skill">Cisco ASA</span>
+                <span class="skill">Bash Scripting</span>
+                <span class="skill">VMWare vSphere</span>
+                <span class="skill">VMWare VCD</span>
+                <span class="skill">IP Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="201403">2014.03</abbr>
@@ -186,6 +200,26 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://www.rackforce.com">RackForce Networks Inc</a>
               <span class="title">Developer</span>
+              <span class="summary">
+                <span class="skill">PHP</span>
+                <span class="skill">MariaDB</span>
+                <span class="skill">Web Markup (HTML, CSS, Bootstrap)</span>
+                <span class="skill">jQuery</span>
+                <span class="skill">Git</span>
+                <span class="skill">Stash (Bitbucket Server)</span>
+                <span class="skill">Jira</span>
+                <span class="skill">Confluence</span>
+                <span class="skill">Linux</span>
+                <span class="skill">Puppet</span>
+                <span class="skill">Bash Scripting</span>
+                <span class="skill">Apache HTTPD</span>
+                <span class="skill">nginx</span>
+                <span class="skill">D3.js</span>
+                <span class="skill">R</span>
+                <span class="skill">PostgreSQL</span>
+                <span class="skill">VMWare vSphere</span>
+                <span class="skill">IP Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="201310">2013.10</abbr>
@@ -205,6 +239,18 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://www.rackforce.com">RackForce Networks Inc</a>
               <span class="title">NOC Supervisor</span>
+              <span class="summary">
+                <span class="skill">Linux</span>
+                <span class="skill">Bash Scripting</span>
+                <span class="skill">D3.js</span>
+                <span class="skill">R</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">PostgreSQL</span>
+                <span class="skill">VMWare vSphere</span>
+                <span class="skill">Cisco IOS</span>
+                <span class="skill">Cisco NX-OS</span>
+                <span class="skill">IP Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="201301">2013.01</abbr>
@@ -227,6 +273,24 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://www.rackforce.com">RackForce Networks Inc</a>
               <span class="title">NOC Technician</span>
+              <span class="summary">
+                <span class="skill">Linux</span>
+                <span class="skill">Virtuozzo</span>
+                <span class="skill">cPanel</span>
+                <span class="skill">Plesk</span>
+                <span class="skill">Bash Scripting</span>
+                <span class="skill">Apache HTTPD</span>
+                <span class="skill">PHP</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">BIND</span>
+                <span class="skill">Postfix</span>
+                <span class="skill">Windows Server</span>
+                <span class="skill">VMWare ESXi</span>
+                <span class="skill">VMWare vSphere</span>
+                <span class="skill">Cisco IOS</span>
+                <span class="skill">Cisco NX-OS</span>
+                <span class="skill">IP Networking</span>
+              </span>
               <ol>
                 <li>
                   <abbr class="dtstart" title="201106">2011.06</abbr>
@@ -288,12 +352,14 @@
             <span class="skill">PHP</span>
             <span class="skill">MySQL</span>
             <span class="skill">Perl</span>
+            <span class="skill">Web Markup (HTML, CSS)</span>
             <span class="skill">Bash Scripting</span>
             <span class="skill">Apache HTTPD</span>
             <span class="skill">BIND</span>
             <span class="skill">Sendmail</span>
             <span class="skill">Radius</span>
             <span class="skill">DOCSIS</span>
+            <span class="skill">SNMP</span>
             <span class="skill">Riverstone (RS 8000)</span>
             <span class="skill">Cisco IOS</span>
             <span class="skill">IP Networking</span>
@@ -302,8 +368,7 @@
             <li>Network design, maintenance, and troubleshooting</li>
             <li>Linux server administration</li>
             <li>Customer technical support</li>
-            <li>Created report generation scripts</li>
-            <li>Co-authored customer management system</li>
+            <li>Development of customer management and provisioning systems</li>
           </ul>
           <abbr class="dtstart" title="200410">2004.10</abbr>
           <abbr class="dtend" title="200608">2006.08</abbr>
@@ -376,9 +441,29 @@
       </ol>
     </section>
 
+    <section>
+      <h1>Favourite <code>fortune</code> Quote</h1>
+      <blockquote>
+        <p>
+          [I plan] to see, hear, touch, and destroy everything in my path, including beets, rutabagas, and most random vegetables, but excluding yams, as I am absolutely terrified of yams…
+        </p><p>
+          Actually, I think my fear of yams began in my early youth, when many of my young comrades pelted me with same for singing songs of far-off lands and deep blue seas in a language closely resembling that of the common sow.
+          My psychosis was further impressed into my soul as I reached adolescence, when, while skipping through a field of yams, light-heartedly tossing flowers into the stratosphere, a great yam-picking machine tore through the fields, pursuing me to the edge of the great plantation, where I escaped by diving into a great ditch filled with a mixture of water and pig manure, which may explain my tendency to scream, <i>"Here come the Martians! Hide the eggs!"</i> every time I have pork.
+          But I digress.
+          The fact remains that I cannot rationally deal with yams, and pigs are terrible conversationalists.
+        </p>
+      </blockquote>
+    </section>
+
     <footer>
       <ol class="footnotes">
-        <li class="footnote" id="footnotes">If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes. Buzzword soup (in the form of a technical skills matrix) is also available on request.</li>
+        <li class="footnote" id="footnotes">
+          If you're like me, and enjoy footnotes, please ask to see my expanded résumé with 500% more footnotes.
+          Buzzword soup (in the form of a technical skills matrix) is also available on request.
+        </li>
+        <li class="footnote" id="functional">
+          While I am neither a PL researcher, nor a type theory savant; I am particularly keen on securing employment involving functional programming.
+        </li>
         <li class="footnote" id="sunshine">A former privately owned ISP and cable company acquired by Shaw Communications Inc.</li>
         <li class="footnote" id="validity">Date of issue to date of expiry.</li>
       </ol>
