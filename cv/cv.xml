@@ -301,7 +301,23 @@
               <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
               <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
               <span class="title">Independent IT Contractor — DevOps Consultant</span>
+              <abbr class="dtstart" title="202402">2024.02</abbr>
+              <ul class="description">
+                <li>Legacy systems training, documentation, maintenance, and migrations</li>
+                <li>Miscellaneous systems integrations and platform development</li>
+                <li>Network device management improvements</li>
+                <li>Design and implementation of a network device utilisation monitoring system</li>
+              </ul>
+              <span class="location adr">
+                <span class="locality">Remote</span>
+              </span>
+            </li>
+            <li class="vcard vevent experience">
+              <a class="include" href="#jjt" title="Jonathan J. Thiessen"></a>
+              <a class="org url" href="https://terago.ca">TeraGo Networks Inc</a>
+              <span class="title">Independent IT Contractor — DevOps Consultant (Casual)</span>
               <abbr class="dtstart" title="202202">2022.02</abbr>
+              <abbr class="dtend" title="202401">2024.01</abbr>
               <span class="description">Legacy systems training, documentation, maintenance, and migrations</span>
               <span class="location adr">
                 <span class="locality">Remote</span>
