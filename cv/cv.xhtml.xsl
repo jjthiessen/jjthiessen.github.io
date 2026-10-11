@@ -193,6 +193,7 @@
             <xsl:when test="$skills">
               <xsl:for-each select="$skills">
                 <xsl:copy-of select="self::node()" />
+                <xsl:call-template name="footnote"><xsl:with-param name="element" select="self::node()" /></xsl:call-template>
               </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
