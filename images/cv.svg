@@ -29,7 +29,7 @@
     <path id="V" d="M 0,3 L 0,0 1,0 1,3 2,3 2,0 3,0 3,3 2,3 2,4 1,4 1,3 Z" />
   </defs>
   <g id="CV" class="link">
-    <a xlink:type="simple" xlink:href="/cv/cv.xml" xlink:show="new">
+    <a xlink:type="simple" xlink:href="/cv/cv.pdf" xlink:show="new">
       <use xlink:href="#C" class="medium" />
       <use xlink:href="#V" class="light" transform="translate(3,0)" />
     </a>
