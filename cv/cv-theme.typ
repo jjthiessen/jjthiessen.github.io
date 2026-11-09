@@ -192,7 +192,7 @@
 #let cv(body, name: none, address: none, contacts: (), endnotes: (:)) = {
   endnote-dict.update(endnotes)
 
-  set page(paper: "us-letter", margin: (x: 1in, y: 1in))
+  set page(paper: "us-letter", height: auto, margin: (x: 1in, y: 1in))
   set text(font: sans-fonts, size: 10pt, lang: "en", weight: 300, fill: luma(12.5%))
   set par(justify: true, leading: 0.5em, spacing: 1.1em)
   set document(title: "Curriculum Vitæ | Résumé")
